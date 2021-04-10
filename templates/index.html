@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>ML API</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text'>
+</head>
+<body>
+ <div class="login">
+	<h1>Predict Heart Disease</h1>
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="https://ussouthcentral.services.azureml.net/workspaces/ab8e1cecc5f94c0bba414b2d9ea77445/services/199028c672844aacaa2faa5144e86f85/execute?api-version=2.0&details=true"method="post">
+        <input type="hidden" id="api-key" value='sX0v9tXPA1U9dz8w5tJx7mZGpHKH2KGi22ipejLnIxB28BInhO6ro3dKClZ1+dKWf/o+OWxJrUuc+TVby/CiLw=='>
+        <input type="text" name="Sex" placeholder="Male : 1 / Female : 0" required="required" />
+        <input type="text" name="Age" placeholder="age" required="required" />
+		<input type="text" name="CurrentSomker" placeholder="Smoker?" required="required" />
+        <input type="text" name="CiggPerDay" placeholder="Ciggperday" required="required" />
+        <input type="text" name="BPMeds" placeholder="bpmeds" required="required" />
+		<input type="text" name="PrevelantStroke" placeholder="stroke?" required="required" />
+        <input type="text" name="PrevalentHype" placeholder="hype?" required="required" />
+        <input type="text" name="Diabetes" placeholder="diabetes?" required="required" />
+		<input type="text" name="total_chol" placeholder="chol?" required="required" />
+        <input type="text" name="Sys_BP" placeholder="sysbp?" required="required" />
+        <input type="text" name="Dia_BP" placeholder="diaBp?" required="required" />
+		<input type="text" name="BMI" placeholder="bmi?" required="required" />
+        <input type="text" name="HeartRate" placeholder="heartrate?" required="required" />
+        <input type="text" name="Glucose" placeholder="glucose?" required="required" />
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+   <br>
+   <br>
+   {{ prediction_text }}
+
+ </div>
+
+
+</body>
+</html>
