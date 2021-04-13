@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <EditText
+                    android:id="@+id/rsex"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="sex" />
+
+                <EditText
+                    android:id="@+id/rage"
+                    android:layout_width="73dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="age" />
+
+                <EditText
+                    android:id="@+id/rcurrent_smoker"
+                    android:layout_width="136dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="current_smoker" />
+
+                <EditText
+                    android:id="@+id/rcigs_per_day"
+                    android:layout_width="112dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="cigs_per_day" />
+
+                <EditText
+                    android:id="@+id/rBP_meds"
+                    android:layout_width="112dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="BP_meds" />
+
+                <EditText
+                    android:id="@+id/rPre_stroke"
+                    android:layout_width="112dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Pre_stroke" />
+
+                <EditText
+                    android:id="@+id/rPre_hype"
+                    android:layout_width="112dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Pre_hype" />
+
+                <EditText
+                    android:id="@+id/rdiabetes"
+                    android:layout_width="112dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="diabetes" />
+
+                <EditText
+                    android:id="@+id/rtot_chol"
+                    android:layout_width="112dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="tot_chol" />
+
+                <EditText
+                    android:id="@+id/rdia_BP"
+                    android:layout_width="112dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="dia_BP" />
+
+                <EditText
+                    android:id="@+id/rsys_BP"
+                    android:layout_width="112dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="sys_BP" />
+
+                <EditText
+                    android:id="@+id/rBMI"
+                    android:layout_width="112dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="BMI" />
+
+                <EditText
+                    android:id="@+id/rheartrate"
+                    android:layout_width="112dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="heartrate" />
+
+                <EditText
+                    android:id="@+id/rglucose"
+                    android:layout_width="112dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="glucose" />
+            </TableRow>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <EditText
+            android:id="@+id/rage3"
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="age" />
+
+        <EditText
+            android:id="@+id/rcurrent_smoker3"
+            android:layout_width="138dp"
+            android:layout_height="111dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="current_smoker" />
+
+        <EditText
+            android:id="@+id/rBP_meds3"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="BP_meds" />
+
+        <EditText
+            android:id="@+id/rsex3"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="sex" />
+
+        <EditText
+            android:id="@+id/rPre_hype3"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Pre_hype" />
+
+        <EditText
+            android:id="@+id/rcigs_per_day3"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="cigs_per_day" />
+
+        <EditText
+            android:id="@+id/rPre_stroke3"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Pre_stroke" />
+
+        <EditText
+            android:id="@+id/rdiabetes2"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="diabetes" />
+
+        <EditText
+            android:id="@+id/rsex4"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="sex" />
+
+        <EditText
+            android:id="@+id/rage4"
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="age" />
+
+        <EditText
+            android:id="@+id/rcurrent_smoker4"
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="current_smoker" />
+
+        <EditText
+            android:id="@+id/rcigs_per_day4"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="cigs_per_day" />
+
+        <EditText
+            android:id="@+id/rBP_meds4"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="BP_meds" />
+
+        <EditText
+            android:id="@+id/rPre_stroke4"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Pre_stroke" />
+
+        <EditText
+            android:id="@+id/rPre_hype4"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Pre_hype" />
+
+        <EditText
+            android:id="@+id/rtot_chol2"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="tot_chol" />
+
+        <EditText
+            android:id="@+id/rdia_BP2"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="dia_BP" />
+
+        <EditText
+            android:id="@+id/rsys_BP2"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="sys_BP" />
+
+        <EditText
+            android:id="@+id/rBMI2"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="BMI" />
+
+        <EditText
+            android:id="@+id/rheartrate2"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="heartrate" />
+
+        <EditText
+            android:id="@+id/rglucose2"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="glucose" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</TableLayout>
